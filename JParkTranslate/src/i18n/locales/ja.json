@@ -1,0 +1,46 @@
+{
+  "app": {
+    "title": "音声翻訳",
+    "startSpeaking": "話し始めると、ここに文字が表示されます...",
+    "translationWillAppear": "翻訳がここに表示されます..."
+  },
+  "actions": {
+    "speak": "話す",
+    "stop": "停止"
+  },
+  "sections": {
+    "speech": "音声",
+    "translated": "翻訳",
+    "explanation": "翻訳ガイド"
+  },
+  "explanation": {
+    "wordByWord": "単語ごとの翻訳",
+    "wordExamples": "単語と文の例",
+    "grammar": "文法規則",
+    "structure": "文の構造",
+    "pronunciation": "発音ガイド"
+  },
+  "languages": {
+    "en": "英語",
+    "ko": "韓国語",
+    "th": "タイ語",
+    "zh": "中国語",
+    "ja": "日本語"
+  },
+  "translation": {
+    "from": "から",
+    "to": "へ"
+  },
+  "example": "例文",
+  "status": {
+    "translating": "翻訳中..."
+  },
+  "errors": {
+    "microphoneAccess": "音声認識を使用するにはマイクへのアクセスを許可してください",
+    "speechRecognition": "音声認識エラー。もう一度お試しください",
+    "browserSupport": "このブラウザは音声認識に対応していません。ChromeまたはEdgeをご使用ください",
+    "startRecording": "録音を開始できませんでした。もう一度お試しください",
+    "stopRecording": "録音を停止できませんでした",
+    "translation": "翻訳に失敗しました"
+  }
+}

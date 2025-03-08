@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "음성 번역기",
+    "startSpeaking": "말씀하시면 여기에 텍스트가 표시됩니다...",
+    "translationWillAppear": "번역이 여기에 표시됩니다..."
+  },
+  "actions": {
+    "speak": "말하기",
+    "stop": "정지"
+  },
+  "sections": {
+    "speech": "음성",
+    "translated": "번역",
+    "explanation": "번역 가이드"
+  },
+  "explanation": {
+    "wordByWord": "단어별 번역",
+    "wordExamples": "단어와 문장 예시",
+    "grammar": "문법 규칙",
+    "structure": "문장 구조",
+    "pronunciation": "발음 가이드"
+  },
+  "languages": {
+    "en": "영어",
+    "ko": "한국어",
+    "th": "태국어",
+    "zh": "중국어",
+    "ja": "일본어"
+  },
+  "translation": {
+    "from": "원본",
+    "to": "번역"
+  },
+  "example": "예시",
+  "status": {
+    "translating": "번역 중..."
+  },
+  "errors": {
+    "microphoneAccess": "음성 인식을 사용하려면 마이크 접근을 허용해 주세요.",
+    "speechRecognition": "음성 인식 오류. 다시 시도해 주세요.",
+    "browserSupport": "이 브라우저에서는 음성 인식이 지원되지 않습니다. Chrome 또는 Edge를 사용해 주세요.",
+    "startRecording": "녹음을 시작하지 못했습니다. 다시 시도해 주세요.",
+    "stopRecording": "녹음을 중지하지 못했습니다.",
+    "translation": "번역에 실패했습니다"
+  },
+  "grammarRules": {
+    "en-ko": {
+      "wordOrder": {
+        "pattern": "어순 차이",
+        "explanation": "영어는 SVO를 사용하고 한국어는 SOV (주어-목적어-동사) 순서를 사용합니다.",
+        "example": "I love you (SVO) → 나는 너를 사랑해요 (SOV)"
+      },
+      "auxiliary": {
+        "pattern": "조동사",
+        "explanation": "영어는 조동사(am, is, are, do, does)를 사용하지만 한국어는 동사 어미로 표현합니다.",
+        "example": "I am eating → 나는 먹고 있어요"
+      },
+      "particles": {
+        "pattern": "전치사와 조사",
+        "explanation": "영어는 명사 앞에 전치사를 사용하고, 한국어는 명사 뒤에 조사를 사용합니다.",
+        "example": "to school → 학교에 (학교 + 조사)"
+      }
+    }
+  },
+  "analysis": {
+    "englishStructure": "영어 문장 구조:",
+    "koreanStructure": "한국어 문장 구조:",
+    "notAvailable": "이 언어 쌍에 대한 문장 구조 분석을 사용할 수 없습니다.",
+    "ko": {
+      "subject": "- 주격 조사 있음",
+      "object": "- 목적격 조사 있음",
+      "polite": "- 존댓말 사용됨"
+    }
+  },
+  "grammar": {
+    "subject": "- 주어(대명사) 포함",
+    "auxiliary": "- 조동사 사용",
+    "article": "- 관사 포함",
+    "preposition": "- 전치사 사용",
+    "compound": "- 복합어 포함",
+    "question": "- 의문문 구조",
+    "exclamation": "- 감탄문",
+    "declarative": "- 평서문"
+  }
+}

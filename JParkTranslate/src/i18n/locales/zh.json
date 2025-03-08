@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "语音翻译",
+    "startSpeaking": "开始说话，您的话将显示在这里...",
+    "translationWillAppear": "翻译将显示在这里..."
+  },
+  "actions": {
+    "speak": "说话",
+    "stop": "停止"
+  },
+  "sections": {
+    "speech": "语音",
+    "translated": "翻译",
+    "explanation": "翻译指南"
+  },
+  "explanation": {
+    "wordByWord": "逐字翻译",
+    "wordExamples": "词句示例",
+    "grammar": "语法规则",
+    "structure": "句子结构",
+    "pronunciation": "发音指南"
+  },
+  "languages": {
+    "en": "英语",
+    "ko": "韩语",
+    "th": "泰语",
+    "zh": "中文",
+    "ja": "日语"
+  },
+  "translation": {
+    "from": "从",
+    "to": "到"
+  },
+  "example": "例子",
+  "status": {
+    "translating": "翻译中..."
+  },
+  "errors": {
+    "microphoneAccess": "请允许访问麦克风以使用语音识别",
+    "speechRecognition": "语音识别错误，请重试",
+    "browserSupport": "此浏览器不支持语音识别，请使用Chrome或Edge",
+    "startRecording": "无法开始录音，请重试",
+    "stopRecording": "无法停止录音",
+    "translation": "翻译失败"
+  },
+  "grammarRules": {
+    "en-zh": {
+      "svo": {
+        "pattern": "主谓宾语序",
+        "explanation": "英语严格遵循主谓宾语序，而中文可能在主语和谓语之间加入时间表达。",
+        "example": "I eat apples → 我吃苹果"
+      },
+      "verbTense": {
+        "pattern": "动词时态",
+        "explanation": "英语动词变化表示时间（现在、过去、将来），而中文使用时间词，不改变动词。",
+        "example": "I ate (过去) vs. I eat (现在) → 我吃了 vs. 我吃"
+      },
+      "articles": {
+        "pattern": "冠词 (a, an, the)",
+        "explanation": "英语在名词前使用冠词，中文则没有冠词。",
+        "example": "the book → 书 (不需要冠词)"
+      }
+    }
+  },
+  "analysis": {
+    "englishStructure": "英语句子结构：",
+    "chineseStructure": "中文句子结构：",
+    "notAvailable": "此语言对不提供句子结构分析。",
+    "zh": {
+      "subject": "- 句首有主语",
+      "time": "- 含有时间词",
+      "object": "- 句末有宾语"
+    }
+  },
+  "grammar": {
+    "subject": "- 包含主语（代词）",
+    "auxiliary": "- 使用助动词",
+    "article": "- 包含冠词",
+    "preposition": "- 使用介词",
+    "compound": "- 包含复合词",
+    "question": "- 疑问句结构",
+    "exclamation": "- 感叹句",
+    "declarative": "- 陈述句"
+  }
+}

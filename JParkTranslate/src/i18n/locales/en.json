@@ -1,0 +1,130 @@
+{
+  "app": {
+    "title": "JPark Translator",
+    "startSpeaking": "Start speaking to see your words here...",
+    "translationWillAppear": "Translation will appear here..."
+  },
+  "actions": {
+    "speak": "Speak",
+    "stop": "Stop"
+  },
+  "sections": {
+    "speech": "Speech",
+    "translated": "Translated",
+    "explanation": "Translation Guide"
+  },
+  "explanation": {
+    "wordByWord": "Word by Word Translation",
+    "wordExamples": "Word to Sentence Examples",
+    "grammar": "Grammar Rules",
+    "structure": "Sentence Structure",
+    "pronunciation": "Pronunciation Guide"
+  },
+  "languages": {
+    "en": "English",
+    "ko": "Korean",
+    "th": "Thai",
+    "zh": "Chinese",
+    "ja": "Japanese"
+  },
+  "translation": {
+    "from": "From",
+    "to": "To"
+  },
+  "example": "Example",
+  "status": {
+    "translating": "Translating..."
+  },
+  "errors": {
+    "microphoneAccess": "Please enable microphone access to use voice recognition.",
+    "speechRecognition": "Speech recognition error. Please try again.",
+    "browserSupport": "Speech recognition is not supported in this browser. Please use Chrome or Edge.",
+    "startRecording": "Failed to start recording. Please try again.",
+    "stopRecording": "Failed to stop recording",
+    "translation": "Translation failed"
+  },
+  "grammarRules": {
+    "en-zh": {
+      "svo": {
+        "pattern": "Subject + Verb + Object",
+        "explanation": "English follows SVO (Subject-Verb-Object) order strictly, while Chinese may place time expressions between subject and verb.",
+        "example": "I eat apples → 我吃苹果"
+      },
+      "verbTense": {
+        "pattern": "Verb Tenses",
+        "explanation": "English verbs change form to show time (present, past, future), while Chinese uses time words without changing the verb.",
+        "example": "I ate (past) vs. I eat (present) → 我吃了 vs. 我吃"
+      },
+      "articles": {
+        "pattern": "Articles (a, an, the)",
+        "explanation": "English uses articles before nouns, which do not exist in Chinese.",
+        "example": "the book → 书 (no article needed)"
+      }
+    },
+    "en-ko": {
+      "wordOrder": {
+        "pattern": "Word Order Difference",
+        "explanation": "English uses SVO while Korean uses SOV (Subject-Object-Verb) order.",
+        "example": "I love you (SVO) → 나는 너를 사랑해요 (SOV)"
+      },
+      "auxiliary": {
+        "pattern": "Auxiliary Verbs",
+        "explanation": "English uses helping verbs (am, is, are, do, does) which Korean expresses through verb endings.",
+        "example": "I am eating → 나는 먹고 있어요"
+      },
+      "particles": {
+        "pattern": "Prepositions vs Particles",
+        "explanation": "English uses prepositions before nouns, while Korean uses particles after nouns.",
+        "example": "to school → 학교에 (school + particle)"
+      }
+    },
+    "en-th": {
+      "wordOrder": {
+        "pattern": "Similar Word Order",
+        "explanation": "Both English and Thai use SVO order, making basic sentences similar in structure.",
+        "example": "I eat rice → ฉันกินข้าว"
+      },
+      "verbForm": {
+        "pattern": "Verb Forms",
+        "explanation": "English changes verb forms for tense, while Thai adds time words without changing the verb.",
+        "example": "I went → ฉันไป (with time context)"
+      },
+      "articles": {
+        "pattern": "Articles vs No Articles",
+        "explanation": "English uses articles (a, an, the) while Thai does not require them.",
+        "example": "the dog → หมา"
+      }
+    }
+  },
+  "analysis": {
+    "englishStructure": "English Sentence Structure:",
+    "chineseStructure": "Chinese Sentence Structure:",
+    "koreanStructure": "Korean Sentence Structure:",
+    "thaiStructure": "Thai Sentence Structure:",
+    "notAvailable": "Sentence structure analysis not available for this language pair.",
+    "zh": {
+      "subject": "- Subject (主语) at the beginning",
+      "time": "- Time expression (时间词) present",
+      "object": "- Object (宾语) at the end"
+    },
+    "ko": {
+      "subject": "- Subject marker (주격조사) present",
+      "object": "- Object marker (목적격조사) present",
+      "polite": "- Polite ending (존댓말) used"
+    },
+    "th": {
+      "subject": "- Begins with subject (ประธาน)",
+      "time": "- Contains time expression (คำบอกเวลา)"
+    }
+  },
+  "grammar": {
+    "subject": "- Contains subject (pronoun)",
+    "auxiliary": "- Uses auxiliary verb",
+    "article": "- Contains articles",
+    "preposition": "- Uses prepositions",
+    "compound": "- Contains compound words",
+    "question": "- Question structure",
+    "exclamation": "- Exclamatory sentence",
+    "declarative": "- Declarative sentence"
+  }
+}
