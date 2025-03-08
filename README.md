@@ -1,2 +1,0 @@
-# jparktranslate
-Translator
